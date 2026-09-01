@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pandas
+scikit-learn
+numpy
+langchain
+langgraph
+sentence-transformers
+qdrant-client
+mlflow
+python-dotenv
