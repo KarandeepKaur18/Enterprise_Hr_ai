@@ -21,7 +21,7 @@ st.markdown("---")
 tab1, tab2, tab3 = st.tabs(["📊 Dashboard Overview", "⚠️ Skill Gaps", "🔮 Risk Predictor"])
 
 with tab1:
-    API_URL = "http://127.0.0.1:8000/dashboard/summary"
+    API_URL = "https://enterprise-hr-ai-l7z4.onrender.com/dashboard/summary"
     try:
         response = requests.get(API_URL)
         if response.status_code == 200:
